@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Insight</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Insight</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="service1_image">    
+    <img src="{{ url_for('static', filename='img/aboutPromotersPoster.png') }}" alt="">
+    <!-- <img src="img/logo.png" alt="Logo"> -->
+ 
+</div>
+<hr>
+<div class="p-5">
+    
+
+    <div style="display: flex;">
+        <img src="{{ url_for('static', filename='img/promoter1.png') }}" alt="">
+        <div style="margin-left: 20px;">
+          <p style="font-size: 19px;">Sanjay Vig is a first generation entrepreneur having 19 years of industry experience. He is a Chartered accountant by profession and Graduate 
+            from Kirori Mal College Delhi University. He has developed solutions for various industries like General Insurance, Banking, Discrete Manufacturing, 
+            Process Manufacturing, and Real Estate.
+            
+            Before starting this company he worked for companies like PricewaterhosueCoopers , ABL Financial Services
+            Nucleus Software Limited, M3M India.
+             
+            He has experience of implementation of Oracle EBS, Custom Solution Design, Reporting tool, Experience of Indian Accounting Standards, Indian GAAPs & Indian Local Laws.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div style="display: flex;">
+        <div style="margin-left: 20px;">
+          <p style="font-size: 19px;">Neelam Upreti is a first generation entrepreneur having 11 years of industry experience. She is MSC IT by profession. She has developed solutions for various industries like General Insurance, Investment Banking, Process Manufacturing, and Real Estate.
+
+            Before starting this company she worked for companies like PricewaterhosueCoopers, Open Software Technologies, Sapient Technologies, Lehman Brothers India Pvt. Limited
+             
+            She has experience of implementation of Oracle EBS, Custom Solution in Java/J2EE, Reporting tool.</p>
+        </div>
+        <img src="{{ url_for('static', filename='img/promoter2.png') }}" alt="">
+      </div>
+
+
+</div>
+
+
+
+       
+
+        {% endblock %}

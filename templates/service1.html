@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Service</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="service1_image">    
+    <img src="{{ url_for('static', filename='img/support&Maintenance.png') }}" alt="">
+    <!-- <img src="img/logo.png" alt="Logo"> -->
+ 
+</div>
+<hr>
+<div class="p-5">
+    <h6 class="mb-3">CSS also offers extended support to Oracle E-Business Suite users, including technical/DBA support, integration with existing bespoke Oracle and non-Oracle business applications and patch testing and release - our service is a comprehensive, cost effective service that meets with a range of Oracle database and environmental requirements including:</h6>
+
+    
+    <span><ul style="font-size: 16px;"><br><br>
+        <li>Managed Service advice and recommendation.</li><br>
+        <li>24/7 Environment monitoring and support.</li><br>
+        <li>Development project support.</li><br>
+        <li>First-time implementation.</li><br>
+        <li><b>Change Management :</b>&nbsp;&nbsp; roll-out, upgrades and migration.</li><br>
+        <li><b>DBA Services :</b>&nbsp;&nbsp; Development, Production and Application.</li><br>
+        <li>Future project management.</li><br>
+        <li>Critical Patch management.</li><br>
+        <li>Security Management.</li><br>
+        <li>Training.</li>
+    </ul></span>
+</div>
+
+
+
+       
+
+        {% endblock %}

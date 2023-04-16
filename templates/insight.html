@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Insight</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Insight</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+</div>
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">INSIGHT CONNAISSANT</div>
+                    <h2 class="mb-5">WE SPECIALIZE IN DEVELOPMENT</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <a href="/insight1"><img class="" src="{{ url_for('static', filename='img/OurVision1.png')  }}"></a>
+                        <div class="ps-3">
+                            <h6 class="mb-1 heading-style"><a href="/insight1">OUR VISION</a></h6>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <a href="/insight2"><img class="" src="{{ url_for('static', filename='img/AboutPropmoters1.png')  }}"></a>
+                            <div class="ps-3">
+                                <h6 class="mb-1 heading-style"><a href="/insight2">ABOUT PROMOTERS</a></h6>
+                            </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <a href="/insight3"><img class="" src="{{ url_for('static', filename='img/DomainExpertise1.png')  }}"></a>
+                        <div class="ps-3">
+                            <h6 class="mb-1 heading-style"><a href="/insight3">DOMAIN EXPERTISE</a></h6>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+        
+        {% endblock %}

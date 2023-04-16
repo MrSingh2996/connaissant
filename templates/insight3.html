@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Insight</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Insight</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="service1_image">    
+    <img src="{{ url_for('static', filename='img/domainExpertisePoster.png') }}" alt="">
+    <!-- <img src="img/logo.png" alt="Logo"> -->
+ 
+</div>
+<hr>
+<div class="p-5">
+    <h6 class="mb-3">In a fast-changing world where expertise can be defined in many different ways, CSS defines domain expertise as knowledge, experience and competence that has been acquired through 
+        consistent track record of successful solutions in specific areas. Rather than being all things to all people, we primarily focus on an in-depth understanding of the possible IT 
+        solutions to very specific functional areas.</h6>
+
+
+
+    <h6 class="mb-3">We understand that technology has to deliver solutions that meet business needs. It is this requirement that fuels our continuous quest for understanding technological solutions for improving business processes as applicable to a host of verticals.</h6>
+
+
+    <h5 class="mb-3">Our core areas are:</h5>
+
+    
+    <span><ul style="font-size: 16px;"><br><br>
+        <li>Real Estate .</li><br>
+        <li>Construction.</li><br>
+        <li>Discrete Manufacturing.</li><br>
+        <li>Process Manufacturing.</li><br>
+        <li>Insurance.</li>
+    </ul></span>
+</div>
+
+
+
+       
+
+        {% endblock %}

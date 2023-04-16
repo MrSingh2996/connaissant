@@ -1,0 +1,319 @@
+
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary hero-header">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="text-white mb-4 animated zoomIn">We Help To Push Your Business To The Top Level</h1>
+                <p class="text-white pb-3 animated zoomIn">Our team is dedicated to providing top-notch assistance and strategies that propel your business to the next level. With our guidance, you can achieve the success you deserve.</p>
+                <a href="/about" class="btn btn-outline-light rounded-pill border-2 py-3 px-5 animated slideInRight">Learn More</a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-start">
+                <img class="img-fluid animated zoomIn" src="{{ url_for('static', filename='img/hero.png') }}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="{{ url_for('static', filename='img/about.png') }}">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">About Us</div>
+                        <h2 class="mb-4">Award Wining Consultancy Agency For Your Business</h2>
+                        <p class="mb-4">Connaissant Soft Solutions (CSS) provides consultancy in software development and ERP implementation, process improvement and system audit</p>
+                        <div class="row g-3 mb-4">
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-user-tie text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h6>Database Management</h6>
+                                    <span>Proven track record to work on databases like Oracle, MSSQL,DB2 , Mysql and SQL</span>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-chart-line text-white"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <h6>Business Solution</h6>
+                                    <span>We provides solution for Custom ERP, Custom solution for processing manufacturing, Inventory management Solutions, Website Development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="/about">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Newsletter Start -->
+        <div class="container-xxl bg-primary my-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container px-lg-5">
+                <div class="row align-items-center" style="height: 250px;">
+                    <div class="col-12 col-md-6">
+                        <h3 class="text-white">We're here to help!</h3>
+                        <small class="text-white">Contact us for any assistance or queries you may have.</small>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Enter Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center mb-n5 d-none d-md-block">
+                        <img class="img-fluid mt-5" style="max-height: 250px;" src="{{ url_for('static', filename='img/newsletter.png') }}">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter End -->
+
+
+        <!-- Service Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Our Services</div>
+                    <h2 class="mb-5">We Provide Solutions On Your Business</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-user-tie fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="/service1">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Support & Maintenance</h5>
+                                <span>We give 24×7 Technical Support, Global Application Support, Functional Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-chart-pie fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="/service2">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Development & Customization</h5>
+                                <span>We focus on Conversions & Data Migrations, and Customization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-chart-line fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="/service2">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Web Development</h5>
+                                <span>We create Responsive and fully Customized Web Pages with Frontend and Backend Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-chart-area fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="/service3">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Oracle EBS Implementation</h5>
+                                <span>We provide End-To-End Implementation, Application Integration, Global Rollout</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-balance-scale fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="/service4">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Process Improvement</h5>
+                                <span>We offer Business Process Re-engineering, Remodilling of Processes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item rounded h-100">
+                            <div class="d-flex justify-content-between">
+                                <div class="service-icon">
+                                    <i class="fa fa-house-damage fa-2x"></i>
+                                </div>
+                                <a class="service-btn" href="/service3">
+                                    <i class="fa fa-link fa-2x"></i>
+                                </a>
+                            </div>
+                            <div class="p-5">
+                                <h5 class="mb-3">Database Management</h5>
+                                <span>We provides all types of Database Management, Monitoring and Database Building</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+
+        <!-- Features Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Features</div>
+                        <h2 class="mb-4">Why People Choose Us? We Are Trusted & Award Wining Agency</h2>
+                        <p>Started in 2011 with mission to cater to needs of growth of enterprise customers , Connaissant Soft Solution is a firm having team of business consultants having rich experience & expertise in diverse domains like Insurance, Banking, Discrete Manufacturing, and Process Manufacturing, Real estate industry. </p>
+                        <p>Connaissant Soft Solutions (CSS) provides consultancy in software development and ERP implementation, process improvement and system audit.</p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="/about">Read More</a>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-5">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-cubes text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Oracle EBS</h6>
+                                </div>
+                                <span>Our expertise lies in Oracle EBS implementation, Custom solution & Integration of Oracle EBS with various systems & environments</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-percent text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Business Solution</h6>
+                                </div>
+                                <span>Connaissant Soft Solutions provides solution for Custom ERP, Custom solution for processing manufacturing, Inventory management Solutions, Website Development</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-award text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Database Management</h6>
+                                </div>
+                                <span>Proven track record to work on databases like Oracle, MSSQL,DB2 , Mysql and SQL</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-smile-beam text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Project management</h6>
+                                </div>
+                                <span>Business process re-engineering, Project management services, Information System</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-user-tie text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Best Consulting Firm</h6>
+                                </div>
+                                <span>Connaissant as a firm is having more than 40 person years of rich experience in diverse technologies & consulting</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-headset text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Experienced Team</h6>
+                                </div>
+                                <span>Core team of Connaissant comprises of professional like Chartered Accountants, MCA/Engineers, & MBAs having more than 15 years of experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+
+        <!-- Client Start -->
+        <div class="container-xxl bg-primary my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel client-carousel">
+                    <a href="#"><img class="img-fluid" src="{{ url_for('static', filename='img/client1.png') }}" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{ url_for('static', filename='img/client2.png') }}" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{ url_for('static', filename='img/client3.png') }}" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="{{ url_for('static', filename='img/client4.png') }}" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- Client End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">INSIGHT CONNAISSANT</div>
+                    <h2 class="mb-5">WE SPECIALIZE IN DEVELOPMENT</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <a href="/insight1"><img class="" src="{{ url_for('static', filename='img/OurVision1.png')  }}"></a>
+                        <div class="ps-3">
+                            <h6 class="mb-1 heading-style"><a href="/insight1">OUR VISION</a></h6>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <a href="/insight2"><img class="" src="{{ url_for('static', filename='img/AboutPropmoters1.png')  }}"></a>
+                            <div class="ps-3">
+                                <h6 class="mb-1 heading-style"><a href="/insight2">ABOUT PROMOTERS</a></h6>
+                            </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <a href="/insight3"><img class="" src="{{ url_for('static', filename='img/DomainExpertise1.png')  }}"></a>
+                        <div class="ps-3">
+                            <h6 class="mb-1 heading-style"><a href="/insight3">DOMAIN EXPERTISE</a></h6>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+       
+
+
+        
+        
+        {% endblock %}

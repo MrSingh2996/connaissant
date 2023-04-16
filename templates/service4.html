@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Service</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="service1_image">    
+    <img src="{{ url_for('static', filename='img/ProcessImprovementPoster') }}" alt="">
+    <!-- <img src="img/logo.png" alt="Logo"> -->
+ 
+</div>
+<hr>
+<div class="p-5">
+    <h6 class="mb-3">Business process reengineering (BPR) is the analysis and redesign of workflows within and between enterprises in order to optimize end-to-end processes and automate non-value-added tasks.</h6>
+
+    <h6 class="mb-3">CSS suggested seven reengineering principles to streamline the work process and thereby achieve significant levels of improvement in quality, time management, speed and profitability:</h6>
+
+
+    <span><ul style="font-size: 16px;"><br><br>
+        <li>Organize around outcomes, not tasks.</li><br>
+        <li>Identify all the processes in an organization and prioritize them in order of redesign urgency.</li><br>
+        <li>Integrate information processing work into the real work that produces the information.</li><br>
+        <li>Treat geographically dispersed resources as though they were centralized.</li><br>
+        <li>Link parallel activities in the workflow instead of just integrating their results.</li><br>
+        <li>Put the decision point where the work is performed, and build control into the process.</li><br>
+        <li>Capture information once and at the source.</li><br>
+    </ul></span>
+</div>
+
+
+
+       
+
+        {% endblock %}

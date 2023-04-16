@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Insight</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Insight</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="service1_image">    
+    <img src="{{ url_for('static', filename='img/ourVisionPoster.png') }}" alt="">
+    <!-- <img src="img/logo.png" alt="Logo"> -->
+ 
+</div>
+<hr>
+<div class="p-5">
+
+    <h4 class="mb-3">Vision :</h4>
+    <ul><h6 class="mb-3">We have a vision to become 'the most preferred solution partner'. Our end-to-end solution expertise ensures a seamless extension of your processes cutting across barriers of 'space and time'. So if you are caught in the maze of too many options or too little options, explore the spectrum of services that can be stitched to your fit.Your partner for delivering world class solutions to make you realize the India advantage; with a wealth of domain expertise and cross-functional teams, we aspire to be your partners in your path to profitability. While synergizing our business advisory, outsourcing, oracle applications and Connaissant Soft Solutions applications ERP domain expertise, we are often viewed by customers as a boutique for mission critical services.</h6></ul>
+
+
+
+    <h4 class="mb-3">Mission :</h4>
+    <ul><h6 class="mb-3">The mission of Connaissant is to build and maintain healthy IT Platforms that exceed our partners' expectations. Connaissant is a technology architecture implementation and management firm who understands the importance of business dealings driven by integrity and respect. We bring to the partnership a portfolio of creative designs , highly skilled consultants, best-of-breed partnerships, and proven approaches to build business critical infrastructures that meet or exceed our client’s expectations.</h6></ul>
+
+
+    
+</div>
+
+
+
+       
+
+        {% endblock %}

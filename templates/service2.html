@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<div class="container-xxl bg-primary page-header">
+    <div class="container text-center">
+        <h1 class="text-white animated zoomIn mb-3">Service</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb justify-content-center">
+                <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="service1_image">    
+    <img src="{{ url_for('static', filename='img/Development&CustomizationPoster.png') }}" alt="">
+    <!-- <img src="img/logo.png" alt="Logo"> -->
+ 
+</div>
+<hr>
+<div class="p-5">
+    <h6 class="mb-3">CSS has a well-defined application development process, which comprises the complete SDLC from requirement analysis to implementation/deployment of the application. 
+        Each of the development phases are defined with metrics and subsequently tracked to ensure timely deliveries. We have a distributed delivery environment wherein work responsibilities are effectively divided between the delivery teams (onsite/offsite) and groups.</h6>
+        
+    <h6 class="mb-3">The application development methodology is successfully used for:</h6>
+
+    
+    <span><ul style="font-size: 16px;"><br><br>
+        <li>New application development.</li><br>
+        <li>Existing application enhancement.</li><br>
+        <li>Application consolidation.</li><br>
+        <li>Application migration.</li><br>
+        <li>Customization of Application.</li><br>
+        <li>Application maintenance.</li><br>
+    </ul></span>
+</div>
+
+
+
+       
+
+        {% endblock %}
